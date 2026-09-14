@@ -21,16 +21,9 @@ to target marketing spend. As lead ML expert, my task was to optimize the existi
 artificial neural network so that segmentation supports effective campaigns.
 
 The optimized network identifies **252 of 374 customers who actually churned,
-against the baseline's 212** — forty more customers a retention campaign can reach —
-on 1,409 held-out customers it had never seen. Recall rose 18.9%, F1 1.1%, ROC-AUC
-0.8387 to 0.8446, and cross-entropy loss fell from 0.4242 to 0.4186. Accuracy fell
-from 0.8027 to 0.7722, which was a deliberate trade explained in Section 5.
+against the baseline's 212**, forty more customers a retention campaign can reach on 1,409 held-out customers it had never seen. Recall rose 18.9%, F1 1.1%, ROC-AUC 0.8387 to 0.8446, and cross-entropy loss fell from 0.4242 to 0.4186. Accuracy fell from 0.8027 to 0.7722, which was a deliberate trade explained in Section 5.
 
-Seven optimization algorithms were implemented and evaluated. **All seven beat the
-baseline** once each was given a suitable learning rate. The model was then
-converted into four costed marketing segments, validated against real churn
-outcomes: high-risk segments churned at 55.9% versus 12.7% for low-risk, a 4.4-fold
-separation, concentrating **$222,955 of expected annual revenue at risk** in a
+Seven optimization algorithms were implemented and evaluated. **All seven beat the baseline** once each was given a suitable learning rate. The model was then converted into four costed marketing segments, validated against real churn outcomes: high-risk segments churned at 55.9% versus 12.7% for low-risk, a 4.4-fold separation, concentrating **$222,955 of expected annual revenue at risk** in a
 single 339-customer group.
 
 Three findings ran against my initial expectations and shaped the report:
