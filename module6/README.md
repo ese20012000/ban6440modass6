@@ -14,8 +14,6 @@ is the optimisation applied on top of it.
 |---|---|
 | **`REPORT.md`** | The main report. Process, algorithm justification, results, MSE reflection, recommendations, APA references. |
 | **`DOCUMENTATION.md`** | Technical documentation: original model spec, algorithms applied, impact on segmentation. |
-| **`SUBMISSION_CHECKLIST.md`** | Maps every brief requirement to where it is satisfied. **Read this before submitting** — it lists the items still needing your name and signature. |
-| **`AI_DISCLOSURE.md`** | AI disclosure form. Needs your review and signature. |
 | `README.md` | This file — orientation and quick results. |
 
 ## Data
@@ -204,8 +202,6 @@ All RNGs are seeded (`RANDOM_SEED = 42` in `src/config.py`), so runs reproduce.
 ```
 REPORT.md                    main report
 DOCUMENTATION.md             technical documentation
-AI_DISCLOSURE.md             AI disclosure form (needs signature)
-SUBMISSION_CHECKLIST.md      requirement-to-file mapping
 data/teleconnect.csv         dataset
 src/config.py                paths, seed, column groupings
 src/data_prep.py             cleaning, encoding, stratified splits, scaling
