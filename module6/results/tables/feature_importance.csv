@@ -1,0 +1,31 @@
+feature,auc_drop
+MonthlyCharges,0.07157939152824074
+Contract_Two year,0.06073824347481641
+tenure,0.04919786096256695
+TotalCharges,0.026086956521739164
+Contract_One year,0.01723328769364581
+OnlineSecurity_Yes,0.006190636113909871
+PhoneService,0.005922825871675068
+TechSupport_Yes,0.005089686291732416
+OnlineBackup_Yes,0.004439105462123487
+SeniorCitizen,0.002778854185503832
+StreamingTV_Yes,0.002583809105548377
+DeviceProtection_Yes,0.002552377999948452
+PaymentMethod_Credit card (automatic),0.0023797222006941565
+InternetService_Fiber optic,0.0020059934382186118
+MultipleLines_No phone service,0.001865199307654682
+OnlineBackup_No internet service,0.0016624040920716714
+PaperlessBilling,0.0014914705451790262
+PaymentMethod_Electronic check,0.0012602581656290985
+InternetService_No,0.0008421814048413431
+StreamingMovies_Yes,0.0008344312692140088
+DeviceProtection_No internet service,0.0007573604760306626
+StreamingTV_No internet service,0.0005123700775875317
+TechSupport_No internet service,0.0004675915161849546
+StreamingMovies_No internet service,-1.3347455802725783e-05
+PaymentMethod_Mailed check,-0.00011452978204888146
+Partner,-0.0002475737769854769
+MultipleLines_Yes,-0.0002622129220594127
+Dependents,-0.00031344992981815106
+OnlineSecurity_No internet service,-0.0004305630904095266
+gender,-0.00046845264236568723

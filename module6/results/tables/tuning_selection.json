@@ -1,0 +1,26 @@
+{
+  "optimizer": "adam",
+  "optimizer_label": "Adam",
+  "learning_rate": 0.003,
+  "loss": "binary_crossentropy",
+  "best_spec": {
+    "name": "16 (carried forward)",
+    "hidden_units": [
+      16
+    ],
+    "activation": "relu",
+    "dropout": 0.0,
+    "l2": 0.0,
+    "batch_norm": false,
+    "optimizer": "adam",
+    "learning_rate": 0.003,
+    "momentum": 0.9,
+    "loss": "binary_crossentropy",
+    "batch_size": 32,
+    "epochs": 150,
+    "early_stopping": true,
+    "patience": 15,
+    "class_weight": false,
+    "notes": ""
+  }
+}

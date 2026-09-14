@@ -1,0 +1,5 @@
+segment,customers,avg_churn_probability,actual_churn_rate,avg_monthly_charges,avg_tenure_months,monthly_revenue,annual_revenue,expected_annual_revenue_at_risk
+Retain Now,339,0.633,0.5693,87.0361,16.8702,29505.25,354063.0,222955.28
+Monitor,112,0.5617,0.5268,47.3335,5.5982,5301.35,63616.2,36099.2
+Grow,366,0.1516,0.1503,92.0186,53.6284,33678.8,404145.6,62057.61
+Nurture,592,0.1043,0.1132,36.851,32.0861,21815.8,261789.6,30566.16

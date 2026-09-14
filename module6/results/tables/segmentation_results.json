@@ -1,0 +1,122 @@
+{
+  "risk_threshold": 0.38999999999999996,
+  "value_threshold": 69.95,
+  "segments": [
+    {
+      "segment": "Retain Now",
+      "customers": 339,
+      "avg_churn_probability": 0.6330000162124634,
+      "actual_churn_rate": 0.5693,
+      "avg_monthly_charges": 87.0361,
+      "avg_tenure_months": 16.8702,
+      "monthly_revenue": 29505.25,
+      "annual_revenue": 354063.0,
+      "expected_annual_revenue_at_risk": 222955.28
+    },
+    {
+      "segment": "Monitor",
+      "customers": 112,
+      "avg_churn_probability": 0.5616999864578247,
+      "actual_churn_rate": 0.5268,
+      "avg_monthly_charges": 47.3335,
+      "avg_tenure_months": 5.5982,
+      "monthly_revenue": 5301.35,
+      "annual_revenue": 63616.2,
+      "expected_annual_revenue_at_risk": 36099.2
+    },
+    {
+      "segment": "Grow",
+      "customers": 366,
+      "avg_churn_probability": 0.15160000324249268,
+      "actual_churn_rate": 0.1503,
+      "avg_monthly_charges": 92.0186,
+      "avg_tenure_months": 53.6284,
+      "monthly_revenue": 33678.8,
+      "annual_revenue": 404145.6,
+      "expected_annual_revenue_at_risk": 62057.61
+    },
+    {
+      "segment": "Nurture",
+      "customers": 592,
+      "avg_churn_probability": 0.10429999977350235,
+      "actual_churn_rate": 0.1132,
+      "avg_monthly_charges": 36.851,
+      "avg_tenure_months": 32.0861,
+      "monthly_revenue": 21815.8,
+      "annual_revenue": 261789.6,
+      "expected_annual_revenue_at_risk": 30566.16
+    }
+  ],
+  "validation": {
+    "high_risk_actual_churn": 0.5587456762749445,
+    "low_risk_actual_churn": 0.12737390396659706
+  },
+  "top_features": [
+    {
+      "feature": "MonthlyCharges",
+      "auc_drop": 0.07157939152824074
+    },
+    {
+      "feature": "Contract_Two year",
+      "auc_drop": 0.06073824347481641
+    },
+    {
+      "feature": "tenure",
+      "auc_drop": 0.04919786096256695
+    },
+    {
+      "feature": "TotalCharges",
+      "auc_drop": 0.026086956521739164
+    },
+    {
+      "feature": "Contract_One year",
+      "auc_drop": 0.01723328769364581
+    },
+    {
+      "feature": "OnlineSecurity_Yes",
+      "auc_drop": 0.006190636113909871
+    },
+    {
+      "feature": "PhoneService",
+      "auc_drop": 0.005922825871675068
+    },
+    {
+      "feature": "TechSupport_Yes",
+      "auc_drop": 0.005089686291732416
+    },
+    {
+      "feature": "OnlineBackup_Yes",
+      "auc_drop": 0.004439105462123487
+    },
+    {
+      "feature": "SeniorCitizen",
+      "auc_drop": 0.002778854185503832
+    },
+    {
+      "feature": "StreamingTV_Yes",
+      "auc_drop": 0.002583809105548377
+    },
+    {
+      "feature": "DeviceProtection_Yes",
+      "auc_drop": 0.002552377999948452
+    },
+    {
+      "feature": "PaymentMethod_Credit card (automatic)",
+      "auc_drop": 0.0023797222006941565
+    },
+    {
+      "feature": "InternetService_Fiber optic",
+      "auc_drop": 0.0020059934382186118
+    },
+    {
+      "feature": "MultipleLines_No phone service",
+      "auc_drop": 0.001865199307654682
+    }
+  ],
+  "playbook": {
+    "Retain Now": "High risk, high value. Personal outreach plus a targeted contract-upgrade or loyalty discount. Highest budget per customer - this is where lost revenue is concentrated.",
+    "Monitor": "High risk, lower value. Automated, low-cost intervention: email offers, self-service nudges. Do not spend agent time here; the margin will not cover it.",
+    "Grow": "Low risk, high value. Already loyal and already profitable. Cross-sell and upsell add-ons rather than discount - a retention offer here just erodes revenue that was not at risk.",
+    "Nurture": "Low risk, lower value. Keep costs minimal, build engagement over time and look for organic upgrade paths."
+  }
+}

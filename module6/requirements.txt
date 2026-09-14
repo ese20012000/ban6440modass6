@@ -1,0 +1,22 @@
+# Exact versions this project was developed and verified against.
+# Environment: Python 3.13.2 on Windows (CPU only - TensorFlow >= 2.11 has no
+# native GPU support on Windows).
+#
+# Install:
+#   python -m pip install -r requirements.txt
+#
+# If your Python version differs and these pins will not resolve, relax them to
+# the minimums below, which are the versions that introduce the APIs used here:
+#   tensorflow>=2.16      (Keras 3 backend)
+#   keras>=3.0            (keras.utils.set_random_seed, Sequential Input layer)
+#   scikit-learn>=1.3
+#   pandas>=2.0
+#   numpy>=1.26
+#   matplotlib>=3.7
+
+tensorflow==2.21.0
+keras==3.15.1
+scikit-learn==1.9.1
+pandas==2.3.3
+numpy==2.4.0
+matplotlib==3.11.2

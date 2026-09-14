@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Run logs produced by the pipeline scripts
+*.log
+
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Duplicate of data/teleconnect.csv kept at the repo root during development.
+# The pipeline reads data/teleconnect.csv; this copy is redundant.
+"teleconnect (1).csv"
+
+# Course-supplied assignment brief. Excluded deliberately: publishing course
+# material is not yours to redistribute, and a public copy alongside the full
+# solution invites plagiarism. Keep it locally.
+assignmnt qustion
